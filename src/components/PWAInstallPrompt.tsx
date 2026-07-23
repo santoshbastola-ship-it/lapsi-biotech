@@ -130,7 +130,7 @@ export function PWAInstallPrompt() {
                     <div className="flex-1">
                         <h3 className="font-bold text-lg">Update Available!</h3>
                         <p className="text-sm opacity-90">
-                            A new version of Greenbird Homestead is ready.
+                            A new version of Lapsi BioTech is ready.
                         </p>
                     </div>
                     <button
@@ -162,7 +162,7 @@ export function PWAInstallPrompt() {
             <div className="fixed bottom-0 left-0 right-0 bg-forest-green text-white p-4 shadow-lg z-50 animate-slide-up">
                 <div className="max-w-4xl mx-auto flex items-start gap-3">
                     <div className="flex-1">
-                        <h3 className="font-semibold mb-1">Install Greenbird Homestead</h3>
+                        <h3 className="font-semibold mb-1">Install Lapsi BioTech</h3>
                         <p className="text-sm text-cream opacity-90 mb-2">
                             Install this app on your iPhone: tap{' '}
                             <svg
@@ -195,13 +195,13 @@ export function PWAInstallPrompt() {
                     <div className="flex-shrink-0">
                         <img
                             src="/icons/icon-72x72.png"
-                            alt="Greenbird Homestead"
+                            alt="Lapsi BioTech"
                             className="w-12 h-12 rounded-lg"
                         />
                     </div>
                     <div className="flex-1 min-w-0">
                         <h3 className="font-semibold text-gray-900 dark:text-white mb-1">
-                            Install Greenbird Homestead
+                            Install Lapsi BioTech
                         </h3>
                         <p className="text-sm text-gray-600 dark:text-gray-300 mb-3">
                             Install our app for a faster experience and offline access

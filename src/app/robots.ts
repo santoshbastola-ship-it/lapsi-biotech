@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
             allow: "/",
             disallow: ["/admin/", "/api/"], // Disallow admin and api routes
         },
-        sitemap: "https://greenbirdhomestead.com.np/sitemap.xml",
+        sitemap: "https://lapsibiotech.com.np/sitemap.xml",
     };
 }

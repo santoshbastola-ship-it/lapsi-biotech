@@ -3,7 +3,7 @@ import { MetadataRoute } from "next";
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = "https://greenbirdhomestead.com.np";
+    const baseUrl = "https://lapsibiotech.com.np";
 
     // Static routes
     const routes = [

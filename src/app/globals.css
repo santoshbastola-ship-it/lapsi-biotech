@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @variant dark (&:where(.dark, .dark *));
 
-/* Greenbird Homestead Color Palette */
+/* Lapsi BioTech Color Palette */
 :root {
   --forest-green: #2D5A27;
   --forest-green-light: #3a7234;
@@ -17,7 +17,7 @@
 }
 
 @theme inline {
-  /* Custom Greenbird Colors */
+  /* Custom Lapsi BioTech Colors */
   --color-forest-green: #2D5A27;
   --color-forest-green-light: #3a7234;
   --color-forest-green-dark: #1f3e1b;
@@ -40,6 +40,7 @@
   /* Typography */
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-serif);
 }
 
 .dark {

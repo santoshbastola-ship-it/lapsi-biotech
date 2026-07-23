@@ -30,7 +30,7 @@ export function VersionManager({ className }: VersionManagerProps) {
     };
 
     const handleForceRefresh = async () => {
-        if (confirm('Force update Greenbird app? This will clear the local cache and reload.')) {
+        if (confirm('Force update Lapsi BioTech app? This will clear the local cache and reload.')) {
             try {
                 // 1. Unregister all service workers
                 if ('serviceWorker' in navigator) {

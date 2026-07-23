@@ -172,13 +172,13 @@ export default function LoginPage() {
                     <div className="mx-auto flex justify-center mb-6">
                         <img
                             src="/images/logo.png"
-                            alt="Greenbird Logo"
+                            alt="Lapsi BioTech Logo"
                             className="h-32 w-auto object-contain"
                         />
                     </div>
                     <h2 className="text-3xl font-extrabold text-gray-900">Welcome</h2>
                     <p className="mt-2 text-sm text-gray-600">
-                        Sign in to your Greenbird account
+                        Sign in to your Lapsi BioTech account
                     </p>
                 </div>
 

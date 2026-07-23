@@ -25,10 +25,10 @@ export default function ContactPage() {
                         />
                         <ContactCard
                             title="Email Us"
-                            content="greenbirdhomestead1@gmail.com"
+                            content="info@lapsibiotech.com"
                             description="We'll get back to you within 24 hours."
                             icon={<Mail className="h-8 w-8 text-[#2D5A27]" />}
-                            href="mailto:greenbirdhomestead1@gmail.com"
+                            href="mailto:info@lapsibiotech.com"
                         />
                         <ContactCard
                             title="Call Us"
@@ -47,7 +47,7 @@ export default function ContactPage() {
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold text-[#2D5A27] mb-4">Locate Us</h2>
                         <p className="text-gray-600 max-w-2xl mx-auto">
-                            Visit us at our homestead in Duwakot to learn more about our sustainable farming practices.
+                            Visit us at our facility in Bhaktapur to learn more about our sustainable biotech processing.
                         </p>
                     </div>
                     <div className="rounded-3xl overflow-hidden shadow-2xl border-4 border-white h-[450px] relative">
@@ -59,31 +59,13 @@ export default function ContactPage() {
                             allowFullScreen
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"
-                            title="Greenbird Location Map"
+                            title="Lapsi BioTech Location Map"
                         />
                     </div>
                 </div>
             </section>
 
-            {/* Simple Message Section */}
-            <section className="py-20 bg-white px-4">
-                <div className="max-w-3xl mx-auto text-center">
-                    <h2 className="text-2xl font-bold text-[#2D5A27] mb-6">Send us a message</h2>
-                    <p className="text-gray-600 mb-8">
-                        You can also reach out to us on our social media channels or via WhatsApp for quicker responses.
-                    </p>
-                    <div className="flex justify-center gap-4">
-                        <a
-                            href="https://wa.me/9779849850000"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="bg-[#2D5A27] text-white px-8 py-3 rounded-full font-bold hover:bg-[#1f3e1b] transition-colors"
-                        >
-                            WhatsApp Us
-                        </a>
-                    </div>
-                </div>
-            </section>
+
         </div>
     );
 }

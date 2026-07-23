@@ -180,7 +180,7 @@ export default function TransactionDetailsModal({
             if (!dataUrl) throw new Error("Failed to generate image URL");
 
             const blob = await (await fetch(dataUrl)).blob();
-            const file = new File([blob], `Greenbird-Bill-${transaction.billNo}.png`, { type: 'image/png' });
+            const file = new File([blob], `Lapsi-Biotech-Bill-${transaction.billNo}.png`, { type: 'image/png' });
 
             let shared = false;
             // @ts-ignore
@@ -189,7 +189,7 @@ export default function TransactionDetailsModal({
                     await navigator.share({
                         files: [file],
                         title: `Bill #${transaction.billNo}`,
-                        text: `Bill from Greenbird Homestead for ${transaction.partyName}`
+                        text: `Bill from Lapsi BioTech for ${transaction.partyName}`
                     });
                     shared = true;
                 } catch (shareErr: any) {
@@ -200,7 +200,7 @@ export default function TransactionDetailsModal({
 
             if (!shared) {
                 const link = document.createElement('a');
-                link.download = `Greenbird-Bill-${transaction.billNo}.png`;
+                link.download = `Lapsi-Biotech-Bill-${transaction.billNo}.png`;
                 link.href = dataUrl;
                 link.click();
             }

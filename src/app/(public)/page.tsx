@@ -29,13 +29,13 @@ export default function Home() {
   const jsonLdData = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "Greenbird Homestead",
-    "url": "https://greenbirdhomestead.com.np",
-    "logo": "https://greenbirdhomestead.com.np/icon.png",
+    "name": "Lapsi BioTech",
+    "url": "https://lapsibiotech.com.np",
+    "logo": "https://lapsibiotech.com.np/icon.png",
     "sameAs": [
       // Add social profiles here if available
     ],
-    "description": "Organic.Fresh.Local - Farm fresh products, organic produce, free-range livestock and farm operations management in Nepal.",
+    "description": "Lapsi BioTech - Experience premium quality, organically processed Spondias pinnata (Lapsi) treats, sweet and sour candies, titaura, and sustainable agricultural innovations from Nepal.",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Nepal",
@@ -44,7 +44,7 @@ export default function Home() {
     "contactPoint": {
       "@type": "ContactPoint",
       "contactType": "customer support",
-      "email": "contact@greenbirdhomestead.com.np" // Placeholder, should be updated if real email exists
+      "email": "contact@lapsibiotech.com.np" // Placeholder, should be updated if real email exists
     }
   };
 
@@ -99,20 +99,20 @@ export default function Home() {
             Farm Fresh, <span className="text-[#FCF9F1]">Straight to You</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-100 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Experience the taste of nature with our organically raised livestock and extensive crop selection.
+            Experience the taste of nature with our premium, organically processed Spondias pinnata (Lapsi) treats and biotech snacks.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-6">
             <Link
               href="/shop"
               className="bg-white text-[#2D5A27] hover:bg-[#FCF9F1] font-bold py-4 px-10 rounded-full transition-all duration-300 flex items-center justify-center shadow-xl hover:-translate-y-1"
             >
-              Shop Fresh <ArrowRight className="ml-2 h-5 w-5" />
+              Shop Organic <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
             <Link
-              href="/booking"
+              href="/about"
               className="bg-[#5C4033] hover:bg-[#3d2a22] text-white font-bold py-4 px-10 rounded-full transition-all duration-300 shadow-xl hover:-translate-y-1"
             >
-              Book Homestead
+              About Biotech
             </Link>
           </div>
         </div>
@@ -126,7 +126,7 @@ export default function Home() {
               Our <span className="text-[#2D5A27]">Core Offerings</span>
             </h2>
             <p className="text-gray-600 mt-4 text-lg">
-              Experience the best of what Greenbird Homestead has to offer, from fresh produce to nature retreats.
+              Experience the best of what Lapsi BioTech has to offer, from premium organic snacks to local biotech innovations.
             </p>
           </div>
 
@@ -178,7 +178,7 @@ export default function Home() {
               Farm Life & <span className="text-[#2D5A27]">Activities</span>
             </h2>
             <p className="text-gray-600 mt-4 text-lg">
-              Experience the rhythm of nature. From dawn till dusk, there's always something beautiful happening at Greenbird Homestead.
+              Discover our production journey. From sourcing raw wild lapsi to hygienic biotech processing, see what goes into Lapsi BioTech.
             </p>
             <div className="mt-6 flex justify-center">
               <Link href="/activities" className="flex items-center gap-2 text-[#2D5A27] font-semibold group cursor-pointer hover:text-[#1f3e1b] transition-colors">
@@ -210,7 +210,7 @@ export default function Home() {
               Featured <span className="text-[#2D5A27]">Products</span>
             </h2>
             <p className="text-gray-600 mt-4 text-lg">
-              Bestsellers from our farm this week. Freshly harvested and ready for your kitchen.
+              Bestsellers from our production lines this week. Cleanly processed and ready to savor.
             </p>
             <div className="mt-6 flex justify-center">
               <Link href="/shop" className="text-[#2D5A27] font-semibold hover:text-[#1f3e1b] flex items-center transition-colors">
@@ -244,7 +244,7 @@ export default function Home() {
               Customer <span className="text-[#2D5A27]">Stories</span>
             </h2>
             <p className="text-gray-600 mt-4 text-lg">
-              Hear what our visitors and customers have to say about their experience at Greenbird Homestead.
+              Hear what our customers and partners have to say about their experience with Lapsi BioTech.
             </p>
           </div>
 

@@ -17,7 +17,7 @@ export default function LogoLoader({ className = "", size = "md" }: LogoLoaderPr
             <div className={`relative ${sizeClasses[size]} animate-pulse`}>
                 <Image
                     src="/images/logo.png"
-                    alt="Greenbird Logo"
+                    alt="Lapsi BioTech Logo"
                     fill
                     className="object-contain"
                     priority

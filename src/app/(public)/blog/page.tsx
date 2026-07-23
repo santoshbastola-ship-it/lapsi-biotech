@@ -12,10 +12,10 @@ export default async function BlogPage() {
                 {/* Header */}
                 <div className="text-center max-w-3xl mx-auto mb-16">
                     <h1 className="text-4xl md:text-5xl font-bold text-[#2D5A27] mb-6">
-                        Stories from the Farm
+                        Stories from Lapsi BioTech
                     </h1>
                     <p className="text-xl text-gray-600 leading-relaxed">
-                        Discover insights about sustainable farming, chicken rearing, and the daily life at Greenbird Homestead.
+                        Discover insights about organic food processing, local biotech agricultural practices, and healthy snack innovations.
                     </p>
                 </div>
 

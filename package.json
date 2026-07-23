@@ -1,5 +1,5 @@
 {
-  "name": "greenbird-pwa",
+  "name": "lapsi-biotech-pwa",
   "version": "0.2.25",
   "private": true,
   "scripts": {
@@ -7,7 +7,7 @@
     "build": "next build --webpack",
     "start": "next start",
     "lint": "eslint",
-    "test": "playwright test",
+    "test": "firebase emulators:exec \"npx tsx scripts/create-test-users.ts && playwright test\"",
     "deploy": "npm run test && npm run build && cd functions && npm install && npm run build && cd .. && firebase deploy",
     "deploy:full": "node scripts/full-deploy.js",
     "deploy:quick": "node scripts/quick-deploy.js",

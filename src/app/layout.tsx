@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Playfair_Display } from "next/font/google";
 
 import { AuthProvider } from "@/context/AuthContext";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
@@ -15,23 +15,28 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const playfair = Playfair_Display({
+  variable: "--font-serif",
+  subsets: ["latin"],
+});
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://greenbirdhomestead.com.np"),
+  metadataBase: new URL("https://lapsibiotech.com.np"),
   title: {
-    default: "Greenbird Homestead | Organic Farm & Local Produce",
-    template: "%s | Greenbird Homestead",
+    default: "Lapsi BioTech | Premium Organic Snacks & Biotech Produce",
+    template: "%s | Lapsi BioTech",
   },
-  description: "Organic.Fresh.Local - Farm fresh products, organic produce, free-range livestock and farm operations management in Nepal.",
-  keywords: ["organic farm", "fresh produce", "local food", "Nepal agriculture", "homestead", "free-range chicken", "organic vegetables", "farm stay"],
-  authors: [{ name: "Greenbird Homestead" }],
-  creator: "Greenbird Homestead",
-  publisher: "Greenbird Homestead",
-  applicationName: "Greenbird Homestead",
+  description: "Lapsi BioTech - Experience premium quality, organically processed Spondias pinnata (Lapsi) treats, sweet and sour candies, titaura, and sustainable agricultural innovations from Nepal.",
+  keywords: ["Lapsi BioTech", "Lapsi candy", "titaura", "organic snacks", "Nepalese titaura", "sustainable agriculture", "biotech food", "Nepal local produce"],
+  authors: [{ name: "Lapsi BioTech" }],
+  creator: "Lapsi BioTech",
+  publisher: "Lapsi BioTech",
+  applicationName: "Lapsi BioTech",
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
-    title: "Greenbird",
+    title: "LapsiBioTech",
   },
   formatDetection: {
     telephone: false,
@@ -39,23 +44,23 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://greenbirdhomestead.com.np",
-    title: "Greenbird Homestead | Organic. Fresh. Local.",
-    description: "Experience the taste of nature with our organically raised livestock and extensive crop selection.",
-    siteName: "Greenbird Homestead",
+    url: "https://lapsibiotech.com.np",
+    title: "Lapsi BioTech | Premium Organic Snacks & Biotech Produce",
+    description: "Experience premium quality, organically processed Spondias pinnata (Lapsi) treats, sweet and sour candies, and sustainable local produce from Nepal.",
+    siteName: "Lapsi BioTech",
     images: [
       {
         url: "/icons/icon-512x512.png",
         width: 512,
         height: 512,
-        alt: "Greenbird Homestead Logo",
+        alt: "Lapsi BioTech Logo",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Greenbird Homestead",
-    description: "Organic.Fresh.Local - Farm fresh products and nature retreats.",
+    title: "Lapsi BioTech",
+    description: "Premium organic snacks, Lapsi treats, and sustainable agricultural innovations.",
     images: ["/icons/icon-512x512.png"],
   },
   alternates: {
@@ -100,7 +105,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col bg-gray-50`}
+        className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} antialiased min-h-screen flex flex-col bg-gray-50`}
       >
         <PWAInstallPrompt />
         <ThemeProvider

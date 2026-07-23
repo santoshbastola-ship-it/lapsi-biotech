@@ -13,7 +13,7 @@ export default function Footer({ minimized = false }: FooterProps) {
                 {/* Minimized version for mobile */}
                 <div className="md:hidden py-3 px-4">
                     <div className="flex items-center justify-between text-xs text-gray-300">
-                        <span>&copy; {new Date().getFullYear()} Greenbird Homestead</span>
+                        <span>&copy; {new Date().getFullYear()} Lapsi BioTech</span>
                         <div className="flex gap-2">
                             <a
                                 href="https://wa.me/9779849850000"
@@ -25,7 +25,7 @@ export default function Footer({ minimized = false }: FooterProps) {
                                 <MessageCircle className="h-3.5 w-3.5" />
                             </a>
                             <a
-                                href="https://facebook.com/greenbirdhomestead"
+                                href="https://facebook.com/lapsibiotech"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="bg-white/10 hover:bg-white/20 p-1.5 rounded-full transition-colors"
@@ -34,7 +34,7 @@ export default function Footer({ minimized = false }: FooterProps) {
                                 <Facebook className="h-3.5 w-3.5" />
                             </a>
                             <a
-                                href="https://www.instagram.com/greenbirdhomestead"
+                                href="https://www.instagram.com/lapsibiotech"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="bg-white/10 hover:bg-white/20 p-1.5 rounded-full transition-colors"
@@ -54,20 +54,20 @@ export default function Footer({ minimized = false }: FooterProps) {
                                 <div className="bg-white dark:bg-gray-200 p-1 rounded inline-block">
                                     <img
                                         src="/images/logo.png"
-                                        alt="Greenbird Homestead"
+                                        alt="Lapsi BioTech"
                                         className="h-8 w-auto object-contain"
                                     />
                                 </div>
-                                <span>&copy; {new Date().getFullYear()} Greenbird Homestead. All rights reserved.</span>
+                                <span>&copy; {new Date().getFullYear()} Lapsi BioTech. All rights reserved.</span>
                             </div>
                             <div className="flex gap-4">
                                 <a href="https://wa.me/9779849850000" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors" aria-label="WhatsApp">
                                     <MessageCircle className="h-4 w-4" />
                                 </a>
-                                <a href="https://facebook.com/greenbirdhomestead" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors" aria-label="Facebook">
+                                <a href="https://facebook.com/lapsibiotech" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors" aria-label="Facebook">
                                     <Facebook className="h-4 w-4" />
                                 </a>
-                                <a href="https://www.instagram.com/greenbirdhomestead" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors" aria-label="Instagram">
+                                <a href="https://www.instagram.com/lapsibiotech" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors" aria-label="Instagram">
                                     <Instagram className="h-4 w-4" />
                                 </a>
                             </div>
@@ -88,13 +88,12 @@ export default function Footer({ minimized = false }: FooterProps) {
                         <div className="bg-white dark:bg-gray-200 p-2 rounded-lg inline-block mb-4">
                             <img
                                 src="/images/logo.png"
-                                alt="Greenbird Homestead"
+                                alt="Lapsi BioTech"
                                 className="h-16 w-auto object-contain"
                             />
                         </div>
                         <p className="text-gray-300 text-sm leading-relaxed">
-                            The homestead emphasizes "Organic.Fresh.Local" as its primary mission.
-                            Sustainable farming for a better future.
+                            Lapsi BioTech emphasizes premium quality, organic processing, and local agricultural innovations as its primary mission.
                         </p>
                     </div>
 
@@ -121,8 +120,8 @@ export default function Footer({ minimized = false }: FooterProps) {
                             </li>
                             <li className="flex flex-col md:flex-row items-center md:items-start gap-2">
                                 <Mail className="h-4 w-4 flex-shrink-0" />
-                                <a href="mailto:greenbirdhomestead1@gmail.com" className="hover:text-white transition-colors">
-                                    greenbirdhomestead1@gmail.com
+                                <a href="mailto:info@lapsibiotech.com" className="hover:text-white transition-colors">
+                                    info@lapsibiotech.com
                                 </a>
                             </li>
                             <li className="flex flex-col md:flex-row items-center md:items-start gap-2">
@@ -148,7 +147,7 @@ export default function Footer({ minimized = false }: FooterProps) {
                                 <MessageCircle className="h-5 w-5" />
                             </a>
                             <a
-                                href="https://facebook.com/greenbirdhomestead"
+                                href="https://facebook.com/lapsibiotech"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors"
@@ -157,7 +156,7 @@ export default function Footer({ minimized = false }: FooterProps) {
                                 <Facebook className="h-5 w-5" />
                             </a>
                             <a
-                                href="https://www.instagram.com/greenbirdhomestead"
+                                href="https://www.instagram.com/lapsibiotech"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors"
@@ -166,7 +165,7 @@ export default function Footer({ minimized = false }: FooterProps) {
                                 <Instagram className="h-5 w-5" />
                             </a>
                             <a
-                                href="https://www.youtube.com/@greenbirdhomestead"
+                                href="https://www.youtube.com/@lapsibiotech"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors"
@@ -176,13 +175,13 @@ export default function Footer({ minimized = false }: FooterProps) {
                             </a>
                         </div>
                         <p className="text-gray-300 text-sm mt-4">
-                            Follow us for farm updates, recipes, and special offers!
+                            Follow us for product updates, recipes, and special offers!
                         </p>
                     </div>
                 </div>
 
                 <div className="border-t border-white/20 pt-8 text-center text-sm text-gray-300 flex flex-col items-center gap-2">
-                    <div>&copy; {new Date().getFullYear()} Greenbird Homestead. All rights reserved.</div>
+                    <div>&copy; {new Date().getFullYear()} Lapsi BioTech. All rights reserved.</div>
                     <VersionManager className="opacity-50 hover:opacity-100 transition-opacity" />
                 </div>
             </div>

@@ -31,12 +31,12 @@ const ShareableBill = forwardRef<HTMLDivElement, ShareableBillProps>(({ transact
                     {/* Using standard img for reliable html-to-image capturing vs Next.js Image */}
                     <img
                         src="/images/logo.png"
-                        alt="Greenbird Homestead"
+                        alt="Lapsi BioTech"
                         className="w-full h-full object-contain"
                     />
                 </div>
-                <h1 className="text-2xl font-bold text-green-800">Greenbird Homestead</h1>
-                <p className="text-sm text-gray-500">Organic.Fresh.Local</p>
+                <h1 className="text-2xl font-bold text-green-800">Lapsi BioTech</h1>
+                <p className="text-sm text-gray-500">Premium Organic Snacks & Biotech Produce</p>
                 <div className="flex flex-col items-center gap-1 mt-2 text-xs text-gray-500">
                     <span>📞 +977 9849850000</span>
                     <span>📍 Besi Gaun, Duwakot, Bhaktapur</span>
@@ -162,7 +162,7 @@ const ShareableBill = forwardRef<HTMLDivElement, ShareableBillProps>(({ transact
             {/* Footer */}
             <div className="text-center mt-auto">
                 <p className="text-green-800 font-handwriting text-lg italic font-medium mb-1">Thank you for your business!</p>
-                <p className="text-gray-400 text-xs">Generated from Greenbird Farm Management App</p>
+                <p className="text-gray-400 text-xs">Generated from Lapsi BioTech Management App</p>
                 <p className="text-gray-400 text-[10px] mt-2">{new Date().toLocaleString()}</p>
             </div>
         </div>

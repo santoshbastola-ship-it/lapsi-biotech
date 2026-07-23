@@ -22,7 +22,7 @@ export default function Error({
         try {
             clearCart();
             // Also explicitly clear localStorage for double safety
-            localStorage.removeItem("greenbird-cart");
+            localStorage.removeItem("lapsi-biotech-cart");
         } catch (e) {
             console.error("Failed to clear cart during reset", e);
         }

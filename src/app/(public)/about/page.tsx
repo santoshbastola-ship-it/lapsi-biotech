@@ -28,7 +28,7 @@ export default function AboutPage() {
                                     I spent years building digital systems where logic and quality mattered. When I looked at the food system in our cities, I saw a lack of that same logic. We were eating "fast" food that took shortcuts.
                                 </p>
                                 <p>
-                                    Greenbird Homestead was born from a desire to apply that same professional precision to the soil. We aren&apos;t just farming; we are engineering a better way to eat.
+                                    Lapsi BioTech was born from a desire to apply professional scientific precision to local snack production. We aren&apos;t just processing food; we are engineering a better way to snack.
                                 </p>
                             </div>
                         </div>
@@ -46,33 +46,33 @@ export default function AboutPage() {
                 </div>
             </section>
 
-            {/* 2. The Greenbird Philosophy Section */}
+            {/* 2. The Lapsi BioTech Philosophy Section */}
             <section className="py-20 bg-white px-4">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-16">
-                        <h2 className="text-3xl md:text-5xl font-bold text-[#2D5A27] mb-6">The Greenbird Philosophy: Why We Do &quot;Slow Food&quot;</h2>
+                        <h2 className="text-3xl md:text-5xl font-bold text-[#2D5A27] mb-6">The Lapsi BioTech Philosophy: Pure & Natural Snacks</h2>
                         <p className="text-gray-600 max-w-3xl mx-auto text-lg italic">
-                            At Greenbird, we believe that nature cannot be &quot;overclocked.&quot; While commercial farms use chemicals to speed up growth, we embrace the Slow-Growth Cycle.
+                            At Lapsi BioTech, we believe that taste and quality cannot be rushed. While commercial snack companies use artificial preservatives and chemical coloring, we embrace natural, hygienic processes.
                         </p>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <PhilosophyCard
-                            title="180-Day Bhale"
-                            description="Our roosters aren't raised in 40 days. They live for 6 months under the sun, developing natural immunity and a rich, deep flavor."
-                            icon="🐓"
-                            tagline="Quality over speed"
+                            title="Pure Lapsi Extract"
+                            description="We use only hand-picked Spondias pinnata (Lapsi) fruits from sustainable local orchards, processed carefully to retain their natural vitamins."
+                            icon="🍈"
+                            tagline="100% Organic & Native"
                         />
                         <PhilosophyCard
-                            title="Chemical-Free Soil"
-                            description="We use vermicompost and traditional Nepali farming wisdom to ensure every vegetable is as clean as the air in Duwakot."
-                            icon="🌱"
+                            title="Hygienic Bio-Processing"
+                            description="We merge traditional Nepali food heritage with modern biotech-standards to ensure every candy is safe, clean, and delicious."
+                            icon="🔬"
                             tagline="Pure by design"
                         />
                         <PhilosophyCard
-                            title="The Happy Bird Rule"
-                            description="Our chickens have 2,000 sq. ft. of outdoor ground to roam. Happy birds produce the most nutrient-dense eggs."
-                            icon="🥚"
+                            title="Zero Preservatives"
+                            description="Our snacks are naturally sun-dried and cured, meaning zero added artificial preservatives or synthetic chemicals."
+                            icon="☀️"
                             tagline="Welfare equals nutrition"
                         />
                     </div>

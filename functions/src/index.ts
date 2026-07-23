@@ -1,7 +1,6 @@
 import * as functions from "firebase-functions";
 import express from "express";
 import cors from "cors";
-import * as whatsappController from "./controllers/whatsapp.controller";
 import * as notificationController from "./controllers/notification.controller";
 
 // Initialize Express App
@@ -19,16 +18,10 @@ app.use(express.json({
 app.get("/", (req, res) => {
     res.json({
         status: "online",
-        message: "Greenbird Homestead API is running.",
+        message: "Lapsi BioTech API is running.",
         version: "1.0.0"
     });
 });
-
-// WhatsApp
-app.get("/whatsapp/webhook", whatsappController.verifyWebhook);
-app.post("/whatsapp/webhook", whatsappController.handleWebhookEvent);
-app.post("/whatsapp/notification", whatsappController.sendNotification);
-app.post("/whatsapp/order-update", whatsappController.updateOrder);
 
 // Notifications
 app.post("/notifications/push", notificationController.sendPush);

@@ -1,7 +1,7 @@
 {
-  "name": "Greenbird Homestead - Organic Farm & Local Produce",
-  "short_name": "Greenbird",
-  "description": "Organic.Fresh.Local - Shop farm fresh products, organic produce, free-range livestock and manage farm operations. Experience the taste of nature with our organically raised products and extensive crop selection.",
+  "name": "Lapsi BioTech - Premium Local Produce & Snacks",
+  "short_name": "LapsiBioTech",
+  "description": "Lapsi BioTech - Premium Organic Lapsi Products & Local Biotech Produce. Experience the taste of nature with our sustainably processed Spondias pinnata (Lapsi) treats, organic snacks, and agricultural innovations.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

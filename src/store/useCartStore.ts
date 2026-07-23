@@ -75,7 +75,7 @@ export const useCartStore = create<CartState>()(
             clearCart: () => set({ items: [] }),
         }),
         {
-            name: "greenbird-cart",
+            name: "lapsi-biotech-cart",
             storage: createJSONStorage(() => localStorage),
             onRehydrateStorage: () => (state) => {
                 if (state) {

@@ -162,7 +162,7 @@ export default function ActivitiesPage() {
                                                 <div className="flex items-center gap-3">
                                                     <ShareButton
                                                         title={activity.title}
-                                                        text={`Check out this activity: ${activity.title} at Greenbird Homestead. Nature's rhythm captured!`}
+                                                        text={`Check out this activity: ${activity.title} at Lapsi BioTech. Nature's rhythm captured!`}
                                                         className=""
                                                     />
                                                     <div className="h-12 w-12 rounded-full border border-gray-100 flex items-center justify-center text-gray-300 hover:text-[#2D5A27] hover:border-[#2D5A27] transition-all cursor-crosshair">

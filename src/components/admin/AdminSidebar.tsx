@@ -173,7 +173,7 @@ export default function AdminSidebar() {
                             <div className="bg-white p-4 rounded-full flex items-center justify-center h-32 w-32 shadow-xl transition-all duration-300 overflow-hidden mb-2">
                                 <img
                                     src="/images/logo.png"
-                                    alt="Greenbird Logo"
+                                    alt="Lapsi BioTech Logo"
                                     className="h-full w-full object-contain"
                                 />
                             </div>
@@ -181,7 +181,7 @@ export default function AdminSidebar() {
                             <div className="bg-white p-2 rounded-full flex items-center justify-center h-12 w-12 shadow-md transition-all duration-300 overflow-hidden mb-2">
                                 <img
                                     src="/images/logo.png"
-                                    alt="Greenbird Logo"
+                                    alt="Lapsi BioTech Logo"
                                     className="h-full w-full object-contain"
                                 />
                             </div>

@@ -70,8 +70,8 @@ export default function BookingPage() {
                     </div>
                     <h2 className="text-3xl font-bold text-gray-900 mb-4">Booking Received!</h2>
                     <p className="text-gray-600 mb-8 leading-relaxed">
-                        Thank you for choosing Greenbird Homestead. Our team will review your request
-                        and contact you shortly to confirm your stay.
+                        Thank you for choosing Lapsi BioTech. Our team will review your request
+                        and contact you shortly to confirm your booking.
                     </p>
                     <button
                         onClick={() => window.location.href = "/"}
