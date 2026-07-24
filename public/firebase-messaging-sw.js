@@ -2,12 +2,12 @@ importScripts('https://www.gstatic.com/firebasejs/9.0.0/firebase-app-compat.js')
 importScripts('https://www.gstatic.com/firebasejs/9.0.0/firebase-messaging-compat.js');
 
 firebase.initializeApp({
-    apiKey: "AIzaSy...",
-    authDomain: "greenbirdhomestead-cloud.firebaseapp.com",
-    projectId: "greenbirdhomestead-cloud",
-    storageBucket: "greenbirdhomestead-cloud.appspot.com",
-    messagingSenderId: "338804680879",
-    appId: "1:338804680879:web:1ed1c3725661138400490b",
+    apiKey: "your-lapsi-biotech-api-key",
+    authDomain: "your-lapsi-biotech-project-id.firebaseapp.com",
+    projectId: "your-lapsi-biotech-project-id",
+    storageBucket: "your-lapsi-biotech-project-id.appspot.com",
+    messagingSenderId: "your-messaging-sender-id",
+    appId: "your-app-id",
 });
 
 const messaging = firebase.messaging();

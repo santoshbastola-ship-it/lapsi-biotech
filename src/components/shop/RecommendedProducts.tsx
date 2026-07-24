@@ -90,7 +90,7 @@ function ProductCard({ product, onAdd }: { product: Product; onAdd: () => void }
                 <div className="absolute top-0 right-0 z-30 scale-75 origin-top-right hidden md:block">
                     <ShareButton
                         title={product.name}
-                        text={`Check out ${product.name} at Greenbird Homestead!`}
+                        text={`Check out ${product.name} at Lapsi BioTech!`}
                         url={`${typeof window !== 'undefined' ? window.location.origin : ''}/shop/${product.id}`}
                         className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-all duration-300"
                     />

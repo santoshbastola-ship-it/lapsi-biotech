@@ -25,7 +25,7 @@ if (!getApps().length) {
     } else {
         console.log("Service account credentials not found in env. Initializing with Project ID only.");
         initializeApp({
-            projectId: projectId || 'greenbird-56584',
+            projectId: projectId || 'your-lapsi-biotech-project-id',
         });
     }
 }
@@ -34,14 +34,14 @@ const auth = getAuth();
 const db = getFirestore();
 
 const TEST_ADMIN = {
-    email: 'test-admin@greenbird.com',
+    email: 'test-admin@lapsibiotech.com',
     password: 'password123!',
     name: 'Test Admin',
     role: 'admin'
 };
 
 const TEST_CUSTOMER = {
-    email: 'test-customer@greenbird.com',
+    email: 'test-customer@lapsibiotech.com',
     password: 'password123!',
     name: 'Test Customer',
     role: 'customer'

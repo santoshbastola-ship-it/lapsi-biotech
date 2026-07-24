@@ -45,10 +45,10 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
         const targetUid = uid || user?.uid;
 
         // MOCK TEST USERS on Refresh
-        if (user?.email === 'test-admin@greenbird.com' || (uid && uid === user?.uid && user?.email === 'test-admin@greenbird.com')) {
+        if (user?.email === 'test-admin@lapsibiotech.com' || (uid && uid === user?.uid && user?.email === 'test-admin@lapsibiotech.com')) {
             setDbUser({
                 id: targetUid || 'test-admin-id',
-                email: 'test-admin@greenbird.com',
+                email: 'test-admin@lapsibiotech.com',
                 name: 'Test Admin',
                 role: 'admin',
                 isActive: true,
@@ -57,10 +57,10 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
             } as AppUser);
             return;
         }
-        if (user?.email === 'test-customer@greenbird.com' || (uid && uid === user?.uid && user?.email === 'test-customer@greenbird.com')) {
+        if (user?.email === 'test-customer@lapsibiotech.com' || (uid && uid === user?.uid && user?.email === 'test-customer@lapsibiotech.com')) {
             setDbUser({
                 id: targetUid || 'test-customer-id',
-                email: 'test-customer@greenbird.com',
+                email: 'test-customer@lapsibiotech.com',
                 name: 'Test Customer',
                 role: 'customer',
                 isActive: true,
@@ -151,11 +151,11 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
                 setUser(firebaseUser);
 
                 // MOCK TEST USERS
-                if (firebaseUser.email === 'test-admin@greenbird.com') {
+                if (firebaseUser.email === 'test-admin@lapsibiotech.com') {
                     console.log("AuthContext: Test Admin Detected");
                     setDbUser({
                         id: firebaseUser.uid,
-                        email: 'test-admin@greenbird.com',
+                        email: 'test-admin@lapsibiotech.com',
                         name: 'Test Admin',
                         role: 'admin',
                         isActive: true,
@@ -165,11 +165,11 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
                     setLoading(false);
                     return;
                 }
-                if (firebaseUser.email === 'test-customer@greenbird.com') {
+                if (firebaseUser.email === 'test-customer@lapsibiotech.com') {
                     console.log("AuthContext: Test Customer Detected");
                     setDbUser({
                         id: firebaseUser.uid,
-                        email: 'test-customer@greenbird.com',
+                        email: 'test-customer@lapsibiotech.com',
                         name: 'Test Customer',
                         role: 'customer',
                         isActive: true,

@@ -10,8 +10,8 @@ import { tmpdir } from "os";
 // or are running in an environment with default credentials.
 if (!admin.apps.length) {
     admin.initializeApp({
-        projectId: "greenbird-56584",
-        storageBucket: "greenbird-56584.firebasestorage.app"
+        projectId: "your-lapsi-biotech-project-id",
+        storageBucket: "your-lapsi-biotech-project-id.appspot.com"
     });
 }
 

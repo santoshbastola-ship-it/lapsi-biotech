@@ -39,7 +39,7 @@ export default function ProductCard({ product }: ProductCardProps) {
                 <div className="absolute top-2 right-2 z-30">
                     <ShareButton
                         title={product.name}
-                        text={`Check out ${product.name} at Greenbird Homestead!`}
+                        text={`Check out ${product.name} at Lapsi BioTech!`}
                         url={`${typeof window !== 'undefined' ? window.location.origin : ''}/shop/${product.id}`}
                         className="scale-90 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-all duration-300"
                     />

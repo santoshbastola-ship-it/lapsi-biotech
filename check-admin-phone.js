@@ -5,7 +5,7 @@ const admin = require('firebase-admin');
 if (!admin.apps.length) {
     admin.initializeApp({
         credential: admin.credential.applicationDefault(),
-        projectId: 'greenbird-56584'
+        projectId: 'your-lapsi-biotech-project-id'
     });
 }
 

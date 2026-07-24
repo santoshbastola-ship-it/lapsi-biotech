@@ -2,7 +2,7 @@ import { defineConfig, devices } from '@playwright/test';
 
 // Set environment variables for the test runner process
 process.env.NEXT_PUBLIC_USE_FIREBASE_EMULATORS = 'true';
-process.env.NEXT_PUBLIC_API_BASE_URL = 'http://localhost:5001/greenbird-56584/us-central1/api';
+process.env.NEXT_PUBLIC_API_BASE_URL = 'http://localhost:5001/lapsi-biotech-placeholder/us-central1/api';
 
 export default defineConfig({
   testDir: './tests',
@@ -29,7 +29,7 @@ export default defineConfig({
     env: {
       PORT: '3001',
       NEXT_PUBLIC_USE_FIREBASE_EMULATORS: 'true',
-      NEXT_PUBLIC_API_BASE_URL: 'http://localhost:5001/greenbird-56584/us-central1/api',
+      NEXT_PUBLIC_API_BASE_URL: 'http://localhost:5001/lapsi-biotech-placeholder/us-central1/api',
     },
   },
 });

@@ -88,7 +88,7 @@ export default function Navbar() {
                     <Link href="/" className={clsx("flex items-center shrink-0", isSearchOpen && "hidden md:flex")}>
                         <img
                             src="/images/logo.png"
-                            alt="Greenbird Homestead"
+                            alt="Lapsi BioTech"
                             className="h-8 sm:h-12 md:h-16 w-auto object-contain"
                         />
                     </Link>

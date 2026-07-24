@@ -38,8 +38,8 @@ const db = getFirestore(app);
 
 // Test user credentials
 const TEST_USERS = [
-    { email: 'test-admin@greenbird.com', password: 'password123!', role: 'admin' },
-    { email: 'test-customer@greenbird.com', password: 'password123!', role: 'customer' }
+    { email: 'test-admin@lapsibiotech.com', password: 'password123!', role: 'admin' },
+    { email: 'test-customer@lapsibiotech.com', password: 'password123!', role: 'customer' }
 ];
 
 interface TestUserIds {

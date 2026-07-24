@@ -28,7 +28,7 @@ export default function LoginPage() {
                     const redirectTo = new URLSearchParams(window.location.search).get("redirect");
                     if (redirectTo) {
                         router.replace(redirectTo);
-                    } else if (user.email === 'test-admin@greenbird.com' || dbUser?.role === 'admin' || dbUser?.role === 'manager') {
+                    } else if (user.email === 'test-admin@lapsibiotech.com' || dbUser?.role === 'admin' || dbUser?.role === 'manager') {
                         router.replace("/admin");
                     } else {
                         router.replace("/shop");
@@ -243,7 +243,7 @@ export default function LoginPage() {
                                                     await refreshDbUser(user.uid); // from hook
 
                                                     // Force redirect for test admin
-                                                    if (user.email === 'test-admin@greenbird.com') {
+                                                     if (user.email === 'test-admin@lapsibiotech.com') {
                                                         const redirectTo = new URLSearchParams(window.location.search).get("redirect");
                                                         router.push(redirectTo || "/admin");
                                                         return;

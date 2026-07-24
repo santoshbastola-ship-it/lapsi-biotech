@@ -137,14 +137,14 @@ export const AuthService = {
 
             if (dbUser.role === 'customer') {
                 // Allow test customer to login with password
-                if (email !== 'test-customer@greenbird.com') {
+                if (email !== 'test-customer@lapsibiotech.com') {
                     throw new Error("Customers must login with Google");
                 }
             }
 
             // Check if email is verified (skip for test customer)
             console.log(`[AuthService] Checking verification for '${email}'. emailVerified: ${result.user.emailVerified}`);
-            if (!result.user.emailVerified && !email.trim().endsWith('@greenbird.com')) {
+            if (!result.user.emailVerified && !email.trim().endsWith('@lapsibiotech.com')) {
                 throw new Error("EMAIL_NOT_VERIFIED");
             }
 

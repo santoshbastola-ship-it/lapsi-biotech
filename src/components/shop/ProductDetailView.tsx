@@ -107,7 +107,7 @@ export default function ProductDetailView({ product: initialProduct, onBack }: P
                             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white">{product.name}</h1>
                             <ShareButton
                                 title={product.name}
-                                text={`Check out ${product.name} at Greenbird Homestead!`}
+                                text={`Check out ${product.name} at Lapsi BioTech!`}
                             />
                             <AdminProductControls productId={product.id} />
                         </div>

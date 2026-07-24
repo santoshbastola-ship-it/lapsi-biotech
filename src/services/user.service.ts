@@ -120,10 +120,10 @@ export const UserService = {
 
     getUserByEmail: async (email: string): Promise<User | null> => {
         // MOCK TEST USERS for E2E Testing
-        if (email === 'test-admin@greenbird.com') {
+        if (email === 'test-admin@lapsibiotech.com') {
             return {
                 id: 'test-admin-id',
-                email: 'test-admin@greenbird.com',
+                email: 'test-admin@lapsibiotech.com',
                 name: 'Test Admin',
                 role: 'admin',
                 isActive: true,
@@ -131,10 +131,10 @@ export const UserService = {
                 emailVerified: true
             } as User;
         }
-        if (email === 'test-customer@greenbird.com') {
+        if (email === 'test-customer@lapsibiotech.com') {
             return {
                 id: 'test-customer-id',
-                email: 'test-customer@greenbird.com',
+                email: 'test-customer@lapsibiotech.com',
                 name: 'Test Customer',
                 role: 'customer',
                 isActive: true,
