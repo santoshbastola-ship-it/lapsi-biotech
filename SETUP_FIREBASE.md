@@ -98,3 +98,42 @@ Your application is a Progressive Web App (PWA). You don't need the App Store or
 1. Open the website.
 2. Look for an **Install icon** (monitor with a down arrow) in the right side of the address bar.
 3. Click it and select **Install**.
+
+---
+
+## Part 3: Deploy & Host on Firebase
+
+Since the project uses Next.js static export (`output: 'export'`) along with Firebase Cloud Functions for APIs, you will deploy both standard static assets and backend endpoints.
+
+### 1. Upgrade to Firebase Blaze Plan
+* Because this project deploys Cloud Functions, Firebase requires you to upgrade your project to the **Blaze Plan** (pay-as-you-go). 
+* *Note: Google provides a generous free tier (first 2,000,000 invocations/month are free).*
+
+### 2. Login to the Firebase CLI
+If you haven't logged in on your command line yet, run:
+```bash
+npx firebase login
+```
+
+### 3. Update Project Target Link
+Change the default target in [.firebaserc](file:///Users/santoshbastola/Desktop/healthysnacks/.firebaserc) to match your new project:
+```json
+{
+  "projects": {
+    "default": "your-new-firebase-project-id"
+  }
+}
+```
+
+### 4. Deploy to Firebase
+To build your static site files, build functions, and deploy everything to Hosting, Firestore, and Cloud Functions, run:
+* **Quick Deploy** (skips playwright browser tests):
+  ```bash
+  npm run deploy:quick
+  ```
+* **Full Deploy** (runs local E2E tests first and updates releases):
+  ```bash
+  npm run deploy:full
+  ```
+
+Once completed, the CLI will output your live Hosting URL (e.g. `https://your-new-firebase-project-id.web.app`).
