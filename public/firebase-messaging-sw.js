@@ -3,10 +3,10 @@ importScripts('https://www.gstatic.com/firebasejs/9.0.0/firebase-messaging-compa
 
 firebase.initializeApp({
     apiKey: "your-lapsi-biotech-api-key",
-    authDomain: "your-lapsi-biotech-project-id.firebaseapp.com",
-    projectId: "your-lapsi-biotech-project-id",
-    storageBucket: "your-lapsi-biotech-project-id.appspot.com",
-    messagingSenderId: "your-messaging-sender-id",
+    authDomain: "lapsi-biotech.firebaseapp.com",
+    projectId: "lapsi-biotech",
+    storageBucket: "lapsi-biotech.firebasestorage.app",
+    messagingSenderId: "812389344235",
     appId: "your-app-id",
 });
 
