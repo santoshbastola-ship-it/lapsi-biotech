@@ -2,12 +2,12 @@ importScripts('https://www.gstatic.com/firebasejs/9.0.0/firebase-app-compat.js')
 importScripts('https://www.gstatic.com/firebasejs/9.0.0/firebase-messaging-compat.js');
 
 firebase.initializeApp({
-    apiKey: "your-lapsi-biotech-api-key",
+    apiKey: "AIzaSyAd0eLnE-1scmZ5ZNTtx43QrhW2tfvr-ew",
     authDomain: "lapsi-biotech.firebaseapp.com",
     projectId: "lapsi-biotech",
     storageBucket: "lapsi-biotech.firebasestorage.app",
     messagingSenderId: "812389344235",
-    appId: "your-app-id",
+    appId: "1:812389344235:web:024161c6378fc972d5efae",
 });
 
 const messaging = firebase.messaging();
